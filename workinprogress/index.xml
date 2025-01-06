@@ -5,12 +5,20 @@
     <link>https://giuseppe-grasso.github.io/workinprogress/</link>
       <atom:link href="https://giuseppe-grasso.github.io/workinprogress/index.xml" rel="self" type="application/rss+xml" />
     <description>Work in progress</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 02 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 07 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://giuseppe-grasso.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Work in progress</title>
       <link>https://giuseppe-grasso.github.io/workinprogress/</link>
     </image>
+    
+    <item>
+      <title>Is Recent Portuguese Emigration Tapping Into a Growing Pool of University Graduates or Draining it?</title>
+      <link>https://giuseppe-grasso.github.io/workinprogress/report/</link>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://giuseppe-grasso.github.io/workinprogress/report/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Dignity by Decree? Temporary Jobs Reforms and Workers&#39; Wages</title>
@@ -25,14 +33,6 @@
       <link>https://giuseppe-grasso.github.io/workinprogress/inequality/</link>
       <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
       <guid>https://giuseppe-grasso.github.io/workinprogress/inequality/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Heterogeneous Job and Skill Landscapes in the Italian Labor Market</title>
-      <link>https://giuseppe-grasso.github.io/workinprogress/ml/</link>
-      <pubDate>Mon, 27 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://giuseppe-grasso.github.io/workinprogress/ml/</guid>
       <description></description>
     </item>
     
