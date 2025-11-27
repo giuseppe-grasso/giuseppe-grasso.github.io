@@ -474,7 +474,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/uploads/CV_Giuseppe_Grasso_05-01-25.pdf"><span>CV</span></a>
+            <a class="nav-link " href="/uploads/CV_Giuseppe_Grasso-26-11-25.pdf"><span>CV</span></a>
           </li>
 
           
@@ -687,41 +687,15 @@
     
 
 
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
 <div class="media stream-item view-compact">
   <div class="media-body">
 
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/project/example/" >Example Project</a>
+    <div class="section-subheading">
+      <a href="/project/example/">Example Project</a>
     </div>
 
-    
-    <a href="/project/example/"  class="summary-link">
-      <div class="article-style">
-        An example of using the in-built project page.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
+    <div class="article-metadata">
       
-
       
     </div>
 
@@ -782,14 +756,25 @@
     
     
     
-    <a href="/project/example/" >
-      <img src="/project/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_150x0_resize_q75_h2_lanczos.webp" height="84" width="150"
-           alt="Example Project" loading="lazy">
+    <a href="/project/example/">
+      <img src="/project/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_150x150_fill_q75_lanczos_center.jpg" alt="Example Project">
     </a>
     
   </div>
 </div>
 
+<script>
+function toggleAbstract(btn, event) {
+  event.preventDefault();
+  event.stopPropagation();
+  const abstract = btn.parentElement.nextElementSibling;
+  if (abstract.style.display === "none") {
+    abstract.style.display = "block";
+  } else {
+    abstract.style.display = "none";
+  }
+}
+</script>
   
 
   

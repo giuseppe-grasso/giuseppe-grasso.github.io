@@ -522,7 +522,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/uploads/CV_Giuseppe_Grasso_05-01-25.pdf"><span>CV</span></a>
+            <a class="nav-link " href="/uploads/CV_Giuseppe_Grasso-26-11-25.pdf"><span>CV</span></a>
           </li>
 
           
@@ -1000,23 +1000,6 @@
       
     
     <li>
-      <a href="https://twitter.com/PeppeGrass" target="_blank" rel="noopener">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
       <a href="https://www.linkedin.com/in/ggrasso/" target="_blank" rel="noopener">
         <i class="fab fa-linkedin"></i>
       </a>
@@ -1064,56 +1047,23 @@
           
 
 
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
 <div class="media stream-item view-compact">
   <div class="media-body">
 
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/talk/example-talk/" >Example Talk</a>
+    <div class="section-subheading">
+      <a href="/talk/example-talk/">Example Talk</a>
     </div>
 
-    
-    <a href="/talk/example-talk/"  class="summary-link">
-      <div class="article-style">
-        An example talk using Wowchemy&rsquo;s Markdown slides feature.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
+    <div class="article-metadata">
       
-      <div>
-        <span>
-          Jun 1, 2030 1:00 PM &mdash; 3:00 PM
-        </span>
-        
-        <span class="middot-divider"></span>
-        <span>Wowchemy HQ</span>
-        
-      </div>
-      
-
       
     </div>
 
     
     <div class="btn-links">
+      <a class="btn btn-outline-primary btn-page-header btn-sm" href="#" onclick="toggleAbstract(this, event); return false;">
+        Abstract
+      </a>
       
 
 
@@ -1168,6 +1118,9 @@
 
 
     </div>
+    <div class="abstract-content" style="display:none; margin-top: 10px;">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.</p>
+    </div>
     
 
   </div>
@@ -1175,14 +1128,25 @@
     
     
     
-    <a href="/talk/example-talk/" >
-      <img src="/talk/example-talk/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_150x0_resize_q75_h2_lanczos.webp" height="107" width="150"
-           alt="Example Talk" loading="lazy">
+    <a href="/talk/example-talk/">
+      <img src="/talk/example-talk/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_150x150_fill_q75_lanczos_center.jpg" alt="Example Talk">
     </a>
     
   </div>
 </div>
 
+<script>
+function toggleAbstract(btn, event) {
+  event.preventDefault();
+  event.stopPropagation();
+  const abstract = btn.parentElement.nextElementSibling;
+  if (abstract.style.display === "none") {
+    abstract.style.display = "block";
+  } else {
+    abstract.style.display = "none";
+  }
+}
+</script>
         
       
     </div>
